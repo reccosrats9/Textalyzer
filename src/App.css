@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Electrolize|Open+Sans');
+
+.App {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #393F4C;
+  min-height: 180vh;
+  padding: 5vh;
+}
+
+h1{
+  font-family: 'Electrolize', sans-serif;
+  font-size: 6em;
+  color: #29F89C;
+  margin-bottom: 5vh;
+}
+
+textarea{
+  width: 45vw;
+  border: none;
+  background-color: whitesmoke;
+  padding: 5px 15px 5px 15px;
+  font-size: 1em;
+  margin-left: 15%;
+}
+
+button{
+  padding: 7px 12px 7px 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #29F89C;
+  color: #393F4C;
+  font-size: 1.25em;
+  margin-left: 5%;
+}
+
+.icons{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 480px;
+  margin-right: 20px;
+}
+
+.inputArea{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5vh;
+}
+
+.resultsContainer{
+  color: whitesmoke;
+  font-size: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 5vh;
+  height: 400px;
+}
+
+.letterBox{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 800px;
+  animation: fadein 4s forwards;
+}
+
+.letter{
+  margin: 30px;
+}
+
+.title{
+  font-weight: bolder;
+    color: #29F89C;
+}
+
+.count{
+  font-size: 0.8em
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
